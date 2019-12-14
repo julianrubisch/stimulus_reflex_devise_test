@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Attractor
-      uses: julianrubisch/julianrubisch/attractor-action@add-base-setup
+      uses: julianrubisch/attractor-action@add-base-setup
       with:
         version: 'latest'
         bundle: 'false'
